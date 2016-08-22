@@ -12,7 +12,10 @@ public class DataLocation {
 
     @SerializedName("html_attributions")
     @Expose
-    private List<Object> htmlAttributions = new ArrayList<Object>();
+    private List<String> htmlAttributions = new ArrayList<String>();
+    @SerializedName("next_page_token")
+    @Expose
+    private String nextPageToken;
     @SerializedName("results")
     @Expose
     private List<Result> results = new ArrayList<Result>();
@@ -25,7 +28,7 @@ public class DataLocation {
      * @return
      *     The htmlAttributions
      */
-    public List<Object> getHtmlAttributions() {
+    public List<String> getHtmlAttributions() {
         return htmlAttributions;
     }
 
@@ -34,8 +37,26 @@ public class DataLocation {
      * @param htmlAttributions
      *     The html_attributions
      */
-    public void setHtmlAttributions(List<Object> htmlAttributions) {
+    public void setHtmlAttributions(List<String> htmlAttributions) {
         this.htmlAttributions = htmlAttributions;
+    }
+
+    /**
+     * 
+     * @return
+     *     The nextPageToken
+     */
+    public String getNextPageToken() {
+        return nextPageToken;
+    }
+
+    /**
+     * 
+     * @param nextPageToken
+     *     The next_page_token
+     */
+    public void setNextPageToken(String nextPageToken) {
+        this.nextPageToken = nextPageToken;
     }
 
     /**

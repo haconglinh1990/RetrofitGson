@@ -12,7 +12,7 @@ import java.util.List;
 
 import io.fruitful.linhhc.retrofitgson.R;
 import io.fruitful.linhhc.retrofitgson.adapter.UserListAdapter;
-import io.fruitful.linhhc.retrofitgson.data.GetUserData;
+import io.fruitful.linhhc.retrofitgson.data.GetDataUser;
 import io.fruitful.linhhc.retrofitgson.model.User;
 
 public class JsonFragment extends Fragment {
@@ -28,7 +28,7 @@ public class JsonFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_json, container, false);
         recyclerViewUser = (RecyclerView) view.findViewById(R.id.recycleView_user);
 
-        users = new GetUserData(getActivity()).getUsers();
+        users = new GetDataUser(getActivity()).getUsers();
 
         adapter = new UserListAdapter(getActivity(), users);
         recyclerViewUser.setAdapter(adapter);

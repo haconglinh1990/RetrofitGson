@@ -10,17 +10,17 @@ public class Northeast {
 
     @SerializedName("lat")
     @Expose
-    private Double lat;
+    private double lat;
     @SerializedName("lng")
     @Expose
-    private Double lng;
+    private double lng;
 
     /**
      * 
      * @return
      *     The lat
      */
-    public Double getLat() {
+    public double getLat() {
         return lat;
     }
 
@@ -29,7 +29,7 @@ public class Northeast {
      * @param lat
      *     The lat
      */
-    public void setLat(Double lat) {
+    public void setLat(double lat) {
         this.lat = lat;
     }
 
@@ -38,7 +38,7 @@ public class Northeast {
      * @return
      *     The lng
      */
-    public Double getLng() {
+    public double getLng() {
         return lng;
     }
 
@@ -47,7 +47,7 @@ public class Northeast {
      * @param lng
      *     The lng
      */
-    public void setLng(Double lng) {
+    public void setLng(double lng) {
         this.lng = lng;
     }
 

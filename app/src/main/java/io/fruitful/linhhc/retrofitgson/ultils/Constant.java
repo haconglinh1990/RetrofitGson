@@ -13,14 +13,22 @@ public class Constant {
 
 
     //https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=21.0280149,105.776591&radius=5000&type=atm&name=ACB&key=AIzaSyDVlukhCGF6TbSF6AAM58WyoNPKb0arzAQ
+    //https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=21.0280149,105.776591&radius=5000&type=atm&key=AIzaSyDVlukhCGF6TbSF6AAM58WyoNPKb0arzAQ
 
+
+    public static final String BASE_URL = "https://maps.googleapis.com/";
+
+    public static final String LOCATION_NEAR_URL = "maps/api/place/nearbysearch/json?location=";
 
     public static final String BASE_URL_API = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=";
+    public static final double LATITUDE_MY_DINH = 21.0280149;
+    public static final double LONGTITUDE_MY_DINH = 105.776591;
+
     public static final String LOCATION_MY_DINH = "21.0280149,105.776591";
-    public static final String RADIUS_SEARCH = "&radius=5000";
+    public static final int RADIUS_SEARCH = 5000;
     public static final String LOCATION_DATA_TYPE = "&type=atm";
     public static final String NAME_FILTER_DATA = "&name=ACB";
-    public static final String API_KEY = "&key=AIzaSyDVlukhCGF6TbSF6AAM58WyoNPKb0arzAQ";
+    public static final String API_KEY = "AIzaSyDVlukhCGF6TbSF6AAM58WyoNPKb0arzAQ";
 
 
 

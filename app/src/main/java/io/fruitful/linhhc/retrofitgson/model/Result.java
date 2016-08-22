@@ -22,12 +22,15 @@ public class Result {
     @SerializedName("name")
     @Expose
     private String name;
+    @SerializedName("opening_hours")
+    @Expose
+    private OpeningHours openingHours;
+    @SerializedName("photos")
+    @Expose
+    private List<Photo> photos = new ArrayList<Photo>();
     @SerializedName("place_id")
     @Expose
     private String placeId;
-    @SerializedName("rating")
-    @Expose
-    private Integer rating;
     @SerializedName("reference")
     @Expose
     private String reference;
@@ -40,9 +43,9 @@ public class Result {
     @SerializedName("vicinity")
     @Expose
     private String vicinity;
-    @SerializedName("opening_hours")
+    @SerializedName("rating")
     @Expose
-    private OpeningHours openingHours;
+    private double rating;
 
     /**
      * 
@@ -119,6 +122,42 @@ public class Result {
     /**
      * 
      * @return
+     *     The openingHours
+     */
+    public OpeningHours getOpeningHours() {
+        return openingHours;
+    }
+
+    /**
+     * 
+     * @param openingHours
+     *     The opening_hours
+     */
+    public void setOpeningHours(OpeningHours openingHours) {
+        this.openingHours = openingHours;
+    }
+
+    /**
+     * 
+     * @return
+     *     The photos
+     */
+    public List<Photo> getPhotos() {
+        return photos;
+    }
+
+    /**
+     * 
+     * @param photos
+     *     The photos
+     */
+    public void setPhotos(List<Photo> photos) {
+        this.photos = photos;
+    }
+
+    /**
+     * 
+     * @return
      *     The placeId
      */
     public String getPlaceId() {
@@ -132,24 +171,6 @@ public class Result {
      */
     public void setPlaceId(String placeId) {
         this.placeId = placeId;
-    }
-
-    /**
-     * 
-     * @return
-     *     The rating
-     */
-    public Integer getRating() {
-        return rating;
-    }
-
-    /**
-     * 
-     * @param rating
-     *     The rating
-     */
-    public void setRating(Integer rating) {
-        this.rating = rating;
     }
 
     /**
@@ -227,19 +248,19 @@ public class Result {
     /**
      * 
      * @return
-     *     The openingHours
+     *     The rating
      */
-    public OpeningHours getOpeningHours() {
-        return openingHours;
+    public double getRating() {
+        return rating;
     }
 
     /**
      * 
-     * @param openingHours
-     *     The opening_hours
+     * @param rating
+     *     The rating
      */
-    public void setOpeningHours(OpeningHours openingHours) {
-        this.openingHours = openingHours;
+    public void setRating(double rating) {
+        this.rating = rating;
     }
 
 }

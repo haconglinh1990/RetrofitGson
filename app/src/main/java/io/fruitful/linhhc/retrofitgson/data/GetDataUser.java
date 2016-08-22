@@ -26,14 +26,14 @@ import io.fruitful.linhhc.retrofitgson.ultils.Constant;
 /**
  * Created by haconglinh1990 on 19/08/2016.
  */
-public class GetUserData {
+public class GetDataUser {
     public List<User> users;
 
     private static final Type USER_TYPE = new TypeToken<List<User>>() {
     }.getType();
 
 
-    public GetUserData(Activity activity){
+    public GetDataUser(Activity activity){
 
         Gson gson = new Gson();
 

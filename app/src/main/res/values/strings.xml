@@ -26,5 +26,12 @@
     <string name="nameBtnJson">Json From Assets</string>
     <string name="nameBtnRetrofit">Retrofit and Gson</string>
 
+    <string name="nameATM">ATM HDBank - Chi Nhánh Thăng Long</string>
+    <string name="addressATM">17, Đường Phạm Hùng, Xã Mỹ Đình, Huyện Từ Liêm</string>
+    <string name="openNow">Open Now</string>
+
+    <string name="distance">512 m</string>
+
+
 
 </resources>

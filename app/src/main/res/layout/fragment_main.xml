@@ -4,33 +4,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="io.fruitful.linhhc.retrofitgson.ui.fragment.MainFragment"
-    android:background="@drawable/khongten">
+    android:background="@drawable/khongten"
+    android:gravity="bottom">
 
-
-    <!--<ImageView-->
-        <!--android:layout_width="200dp"-->
-        <!--android:layout_height="200dp"-->
-        <!--android:layout_gravity="center_horizontal"-->
-        <!--android:layout_margin="50dp"-->
-        <!--android:src="@drawable/voz2" />-->
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/nameBtnJson"
         android:id="@+id/btn_goToJsonFragment"
-        android:layout_gravity="center_horizontal|top"
+        android:layout_gravity="center_horizontal"
         android:textColor="@color/color_white"
-        android:background="@color/primary_dark"
-        android:layout_marginTop="250dp" />
+        android:background="@color/primary_dark" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/nameBtnRetrofit"
         android:id="@+id/btn_goToRetrofitFragment"
-        android:layout_gravity="center_horizontal|top"
+        android:layout_gravity="center_horizontal"
         android:textColor="@color/color_white"
         android:background="@color/primary_dark"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp" />
 </LinearLayout>
