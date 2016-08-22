@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Retrofit Gson</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firstName">Kỳ Duyên</string>
+    <string name="fullName">Nguyễn Hữu Kỳ Duyên</string>
+    <string name="email">haconglinh1990@gmail.com</string>
+    <string name="phoneNumber">0973743185</string>
+    <string name="dateJoin">21 Jul 2015</string>
+    <string name="userInfoDetail">Năm 2008, cuộc thi Hoa hậu Việt Nam đã tổ chức lễ kỷ niệm lịch sử 20 năm kể từ khi
+        ra đời của mình. Tại buổi lễ có sự hội tụ của nhiều cựu Hoa hậu, lễ ra mắt của tân Hoa hậu Việt Nam Trần Thị
+        Thùy Dung và sự góp mặt của các người đẹp top 10 của cuộc thi năm 2008. Năm 2010, cuộc thi Hoa hậu Việt Nam
+        lần thứ 12 đã diễn ra tại Tuần Châu (Hạ Long, tỉnh Quảng Ninh)</string>
+
+    <string name="userInfoDetailBichPhuong">Cô sinh tại Hà Nội trong một gia đình nghèo, bố đi bộ đội, mẹ ở một mình
+        nhà nuôi các anh em trưởng thành. Khi đi du học tại Hàn Quốc cô phải làm thêm rất nhiều để trang trải sinh
+        hoạt phí mỗi ngày học 4 tiếng và làm thêm 6-7 tiếng.[3] Khi đăng quang cô là sinh viên năm thứ nhất khoa tiếng
+        Anh của Đại học Tổng hợp Hà Nội và vẫn phải đi dịch thuê với thù lao 500 đồng/trang, rồi đi dạy thêm để kiếm
+        tiền học phí. Sau vài năm cô nhận được học bổng du học tại Hàn Quốc và có bằng thạc sĩ tại Đại học Quốc gia
+        Seoul.[2] Bùi Bích Phương hiện trực tiếp điều phối hoạt động của Quỹ Giáo dục ĐH và Sau ĐH Hàn Quốc tại khu
+        vực Đông Nam Á. Trong một lần làm phiên dịch cho đoàn cán bộ Việt Nam qua Hàn Quốc đàm phán với Quỹ Giáo dục
+        Cao học Hàn Quốc, Bích Phương đã thuyết phục được phía bạn mở rộng dự án vào khu vực Đông Nam Á và chị trở
+        thành người đại diện.</string>
+
+    <string name="nameBtnJson">Json From Assets</string>
+    <string name="nameBtnRetrofit">Retrofit and Gson</string>
+
+
+</resources>
